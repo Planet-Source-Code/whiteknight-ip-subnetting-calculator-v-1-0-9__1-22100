@@ -1,0 +1,100 @@
+[Root]
+Most Recent Package=IP Check
+
+
+[Package|IP Check|IP Check]
+Icon1=IPcheck.exe
+Title1=IP Check
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|IP Check|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=e:\Visual Basic Projects\IPChecker\Package
+
+[Package|IP Check|Configure DAO ISAMs]
+Applicable=No
+
+[Package|IP Check|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|IP Check|Files Found]
+
+[Package|IP Check|Files Released]
+
+[Package|IP Check|Missing Dependency Information]
+
+[Package|IP Check|Out-of-Date Dependency Information]
+
+[Package|IP Check|Files Added]
+
+[Package|IP Check|Files Removed]
+
+[Package|IP Check|Files In Project]
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+E:\Visual Basic Projects\IPChecker\IPcheck.exe=Yes
+
+[Package|IP Check|Configure Registry Files]
+Applicable=No
+
+[Package|IP Check|Configure Remote Servers]
+Applicable=No
+
+[Package|IP Check|Install Locations]
+D:\VBFiles\IPChecker\IPcheck.exe=$(ProgramFiles)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+E:\Visual Basic Projects\IPChecker\IPcheck.exe=$(AppPath)
+
+[Package|IP Check|Configure Shared Files]
+Applicable=Yes
+D:\VBFiles\IPChecker\IPcheck.exe=Yes
+E:\Visual Basic Projects\IPChecker\IPcheck.exe=No
+
+[Package|IP Check|Distribution]
+Type=single
+Size=
+Title=IP Calculator for Windows 9x/ME/NT/2000
+
+[Package|IP Check|Package]
+PackageFolder=e:\Visual Basic Projects\IPChecker\Package
+ProjectFolder=E:\Visual Basic Projects\IPChecker
+ServerSideCab=
+File1=e:\Visual Basic Projects\IPChecker\Package\setup.exe
+File2=e:\Visual Basic Projects\IPChecker\Package\Setup.Lst
+File3=e:\Visual Basic Projects\IPChecker\Package\IPcheck.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|IP Check|IconGroups]
+Group0=IP Calculator
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|IP Check|IP Calculator]
+Icon1=IPcheck.exe
+Title1=IP Calculator
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2=c:\windows\ST6UNST.EXE "$(AppPath)\IPCheck.exe"
+Title2=UnInstall IP Calculator
+StartIn2=$(AppPath)
+Key2=Icon2
